@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+	<head>
+		<title> Formative 6_Link States </title>
+		<style>
+			#div1{
+				background-color: red;
+				color: white;
+				text-align: center;
+				width: 8%;
+				padding: 60px 100px;
+				border-radius: 100px;
+				box-shadow: 10px 10px 5px #333230;
+				position: absolute;
+				top: 35%;
+				left: 20%;
+				display: inline;
+			}
+			#div2{
+				background-color: blue;
+				color: white;
+				text-align: center;
+				width: 8%;
+				padding: 60px 100px;
+				border-radius: 100px;
+				box-shadow: 10px 10px 5px #333230;
+				position: absolute;
+				left: 55%;
+				top: 35%;
+				display: inline;
+			}
+			#Link1{	
+				background-color: #931621;
+				color: white;
+				padding: 20px;
+				margin: 10px;
+				border: 3px solid black;
+				position:relative;
+				left: 38%;
+				top: 115px;
+			}
+			#Link1:visited{
+				background-color: #008F11;
+				color: black;
+			}
+			#Link1:hover{
+				background-color: white;
+				color: black;
+			}
+			#Link2{
+				background-color: #464D77;
+				color: white;
+				padding: 20px;
+				margin: 90px;
+				border: 3px solid black;
+				position: relative;
+				left: 36%;
+				top: 115px;
+			}
+			#Link2:visited{
+				background-color: #008F11;
+				color: black;
+			}
+			#Link2:hover{
+				background-color: white;
+				color: black;
+			}
+			#div1:target{
+				background-color: black;
+				color: red;
+				border-radius: 100px;
+				box-shadow: 10px 10px 5px #333230;
+			}
+			#div2:target{
+				background-color: blue;
+				border: 10px dotted green;
+				padding: 50px 90px;
+				border-radius: 120px;
+				box-shadow: 10px 10px 5px #333230;
+			}
+			body{
+				background-image: url("matrix.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+		</style>
+	</head>
+	<body>
+		<a id="Link1" href="#div1"> Red pill? </a>
+		<a id="Link2" href="#div2"> Blue pill? </a>
+		<br><br><br>
+		<div id="div1"> Red pill. </div>
+		<br><br>
+		<div id="div2"> Blue pill. </div>
+
+
+	</body>
+</html>
